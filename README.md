@@ -93,11 +93,7 @@ A few real issues caught and fixed during development (documented here because d
 - How target skew and evaluation metric (RMSLE) should directly shape preprocessing choices (log-transform) rather than being an afterthought
 - Encoding strategy isn't one-size-fits-all — OrdinalEncoder beat OneHotEncoder here, which isn't the "default" assumption most tutorials lead with
 - Blending multiple models, even a simple weighted average, gave a measurable improvement over any single model
-- The value of systematic debugging — several silent bugs (double log-transform, an overwritten submission) would have gone unnoticed without deliberate validation checks
-
-## Links
-
-- [Kaggle notebook](https://www.kaggle.com/code/kavyashaw9/21f3000614-notebook-2026t2)
+- The value of systematic debugging — several silent bugs (double log-transform, an overwritten submission) would have gone unnoticed without deliberate validation checks.
 
 ---
 
